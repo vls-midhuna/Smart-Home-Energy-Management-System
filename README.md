@@ -5,3 +5,6 @@
 
 lkjhgfdsdfghjkl
   ## Intro
+|name|price|
+|----|-----|
+|jumper wires|30|
