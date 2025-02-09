@@ -19,14 +19,16 @@ Users can monitor and manage their home’s energy consumption remotely through 
 | Item                   | Quantity | Description                                                   | Links to Products                                      |
 |------------------------|----------|---------------------------------------------------------------|---------------------------------------------------|
 | Aries Micro v1.0(VEGA Processor)  | 1        | Microcontroller board                                        | [VSD Squadron Mini ](https://pages.razorpay.com/vsdsqmnMAY24)           |
-| Optocoupler            | 1        | Standard servo motor (e.g., SG90)                            | [SG90 Servo Motor](https://amzn.in/d/bPAGDrt)       |
-| Real-Time Clock        | 1        | Bluetooth module for serial communication                    | [Bluetooth HC-05](https://amzn.in/d/8OtBQpe)        |
-| DHT11 Sensor           | 1        | Microcontroller board                                        | [VSD Squadron Mini ](https://pages.razorpay.com/vsdsqmnMAY24)           |
-| Voltage Sensor           | 1        | Standard servo motor (e.g., SG90)                            | [SG90 Servo Motor](https://amzn.in/d/bPAGDrt)       |
-| Current Sensor         | 1        | Bluetooth module for serial communication                    | [Bluetooth HC-05](https://amzn.in/d/8OtBQpe)        |
-| Relay module           | 1        | Bluetooth module for serial communication                    | [Bluetooth HC-05](https://amzn.in/d/8OtBQpe)        |
-| Jumper Wires           | 1        | Male-to-male and female-to-male jumper wires                 | [Jumper Wires](https://amzn.in/d/abTh8bo)           |
-| USB Cable(B-type)     | 1        | For programming and power supply                             | [Micro USB Cable](https://amzn.in/d/9b3ttSo)        |
+| NodeMCU  | 1        |Wi-Fi-enabled microcontroller for IoT applications  | [Micro USB Cable](https://amzn.in/d/9b3ttSo)        |
+| Optocoupler            | 1        | For isolating high and low voltage circuits                            | [SG90 Servo Motor](https://amzn.in/d/bPAGDrt)       |
+| Real-Time Clock        | 1        | Module for keeping track of real-time data              | [Bluetooth HC-05](https://amzn.in/d/8OtBQpe)        |
+| DHT11 Sensor           | 1        | Temperature and humidity sensor for environmental monitoring           | [VSD Squadron Mini ](https://pages.razorpay.com/vsdsqmnMAY24)           |
+| Voltage Sensor           | 1        |    Sensor for measuring voltage levels in circuits   | [SG90 Servo Motor](https://amzn.in/d/bPAGDrt)       |
+| Current Sensor         | 1        |  Sensor for measuring electric current in a circuit                 | [Bluetooth HC-05](https://amzn.in/d/8OtBQpe)        |
+| 4 channel Relay module           | 1        | Electrically operated switch for controlling high-power devices    | [Bluetooth HC-05](https://amzn.in/d/8OtBQpe)        |
+| DTH AC 21.V       | 1        | A power supply for DTH (Direct-to-Home)   | [Jumper Wires](https://amzn.in/d/abTh8bo)           |
+| Jumper Wires           | 1        | Male-to-male, Female-to-male and female-to-male jumper wires                 | [Jumper Wires](https://amzn.in/d/abTh8bo)           |
+| USB Cable  | 1        | For programming and power supply                             | [Micro USB Cable](https://amzn.in/d/9b3ttSo)        |
 ## Table for Pin Connections
 ## Pinout Diagram
 ## Working Code
