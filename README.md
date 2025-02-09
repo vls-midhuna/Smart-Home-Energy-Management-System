@@ -31,7 +31,7 @@ Users can monitor and manage their home’s energy consumption remotely through 
 | PCB          | 1        | For connecting the components  | [PCB](https://robu.in/product/12-x-18-cm-universal-pcb-prototype-board-single-sided-2-54mm-hole-pitch/)         |
 | USB Cable  | 1        | For programming and power supply                             | [Micro USB Cable](https://amzn.in/d/1Sg2bNx)        |
 ## Table for Pin Connections
-| Component            | VSD Squadron Mini Pin | Description                                             |
+| Component            | Aries v1.0 Pin | Description                                             |
 |----------------------|-----------------------|---------------------------------------------------------|
 | Servo Signal         | PC6                   | Servo motor's control signal pin                        |
 | Servo VCC            | 5V                    | Servo motor's power supply                              |
@@ -42,6 +42,7 @@ Users can monitor and manage their home’s energy consumption remotely through 
 | Bluetooth VCC        | 3.3V                  | Bluetooth module's 3.3V pin (connect to microcontroller's 3.3V output pin) |
 | Bluetooth State      | PC7                   | Bluetooth module's State pin (indicates connection status) |
 | Onboard LED          | LED_BUILTIN           | Onboard LED for status indication                       |
+
 ## Pinout Diagram
 ![image](https://github.com/vls-midhuna/Smart-Home-Energy-Management-System/blob/84fc8145ec4254cac4d6af616fad86aebcbe9dd6/Pinout.png)
 ## Working Code
