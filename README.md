@@ -6,29 +6,30 @@ The Smart Home Energy Management System offers a real-time solution to this chal
 ## Overview
 The project showcased here introduces an innovative solution for smart energy management, enabling homeowners to monitor and optimize electricity usage in real time. It leverages IoT technology to provide actionable insights, automated alerts, and data-driven recommendations for energy efficiency. By tracking energy consumption and analyzing usage patterns, the system helps users make informed decisions to reduce costs and minimize environmental impact.
 
+- **ARIES MICRO v1.0 (VEGA Processor)**: Acts as the core microcontroller for data processing and decision-making.
+- **NodeMCU**:  For transmitting real-time data over WiFi and providing users with instant updates.
 - **Optocoupler**: Ensures safe and efficient signal isolation between different circuit components.
 - **Real-Time Clock**: Maintains accurate timekeeping for energy usage tracking.
 - **DHT11 Sensor**: Monitors temperature and humidity to analyze environmental factors affecting energy consumption.
 - **Voltage Sensor**: Measures voltage levels for real-time monitoring of power usage.
 - **Current Sensor**: Tracks current flow to identify excessive power consumption.
 - **Relay Module**: Controls the switching of electrical appliances based on optimization strategies.
-- **ARIES MICRO v1.0 (VEGA Processor)**: Acts as the core microcontroller for data processing and decision-making.
 
 Users can monitor and manage their home’s energy consumption remotely through a mobile app and web dashboard, ensuring smarter energy usage and cost savings. This project exemplifies the practical application of IoT in home automation, promoting sustainable and efficient energy management.
 ## Components required with Bill of Materials
 | Item                   | Quantity | Description                                                   | Links to Products                                      |
 |------------------------|----------|---------------------------------------------------------------|---------------------------------------------------|
-| Aries Micro v1.0(VEGA Processor)  | 1        | Microcontroller board                                        | [VSD Squadron Mini ](https://pages.razorpay.com/vsdsqmnMAY24)           |
-| NodeMCU  | 1        |Wi-Fi-enabled microcontroller for IoT applications  | [Micro USB Cable](https://amzn.in/d/9b3ttSo)        |
-| Optocoupler            | 1        | For isolating high and low voltage circuits                            | [SG90 Servo Motor](https://amzn.in/d/bPAGDrt)       |
-| Real-Time Clock        | 1        | Module for keeping track of real-time data              | [Bluetooth HC-05](https://amzn.in/d/8OtBQpe)        |
-| DHT11 Sensor           | 1        | Temperature and humidity sensor for environmental monitoring           | [VSD Squadron Mini ](https://pages.razorpay.com/vsdsqmnMAY24)           |
-| Voltage Sensor           | 1        |    Sensor for measuring voltage levels in circuits   | [SG90 Servo Motor](https://amzn.in/d/bPAGDrt)       |
-| Current Sensor         | 1        |  Sensor for measuring electric current in a circuit                 | [Bluetooth HC-05](https://amzn.in/d/8OtBQpe)        |
-| 4 channel Relay module           | 1        | Electrically operated switch for controlling high-power devices    | [Bluetooth HC-05](https://amzn.in/d/8OtBQpe)        |
-| DTH AC 21.V       | 1        | A power supply for DTH (Direct-to-Home)   | [Jumper Wires](https://amzn.in/d/abTh8bo)           |
-| Jumper Wires           | 1        | Male-to-male, Female-to-male and female-to-male jumper wires                 | [Jumper Wires](https://amzn.in/d/abTh8bo)           |
-| USB Cable  | 1        | For programming and power supply                             | [Micro USB Cable](https://amzn.in/d/9b3ttSo)        |
+| Aries Micro v1.0(VEGA Processor)  | 1        | Microcontroller board                                        | [Aries Micro](https://robu.in/product/aries-micro-v1-0-devlopment-board/)           |
+| NodeMCU  | 1        | For updating real-time data through WiFi  | [NodeMCU](https://robu.in/product/nodemcu-esp8266-v3-lua-ch340-wifi-dev-board/)        |
+| Optocoupler            | 1        | For isolating high and low voltage circuits| [Optocoupler](https://robu.in/product/mct2em-optocoupler-phototransistor-ic-dip-6-package/)       |
+| Real-Time Clock        | 1        | Module for keeping track of real-time data| [Real-Time Clock](https://robu.in/product/ds1302-real-time-clock-rtc-module-without-battery/)        |
+| DHT11 Sensor| 1| Temperature and humidity sensor for environmental monitoring| [DHT11 Sensor](https://robu.in/product/dht11-temperature-and-humidity-sensor-module-with-led/)|
+| Voltage Sensor           | 1|    Sensor for measuring voltage levels in circuits   | [Voltage Sensor](https://robu.in/product/ac-voltage-sensor-module-zmpt101b-single-phase/)       |
+| Current Sensor         | 1|  Sensor for measuring electric current in a circuit| [Current Sensor](https://robu.in/product/5a-range-current-sensor-module-acs712/)        |
+| 4-channel Relay module           | 1        | Electrically operated switch for controlling high-power devices    | [ 4-channel Relay module ](https://robu.in/product/4-channel-relay-module-5v-high-and-low-level-trigger-relay-module/)        |
+| DTH AC 21.V       | 1        | A power supply for DTH (Direct-to-Home)   | [DTH AC 21.V]( https://amzn.in/d/dBb4ZcJ )           |
+| PCB          | 1        | For connecting the components  | [PCB](https://robu.in/product/12-x-18-cm-universal-pcb-prototype-board-single-sided-2-54mm-hole-pitch/)         |
+| USB Cable  | 1        | For programming and power supply                             | [Micro USB Cable](https://amzn.in/d/1Sg2bNx)        |
 ## Table for Pin Connections
 ## Pinout Diagram
 ## Working Code
