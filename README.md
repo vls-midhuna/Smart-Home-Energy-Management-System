@@ -31,20 +31,32 @@ Users can monitor and manage their home’s energy consumption remotely through 
 | PCB          | 1        | For connecting the components  | [PCB](https://robu.in/product/12-x-18-cm-universal-pcb-prototype-board-single-sided-2-54mm-hole-pitch/)         |
 | USB Cable  | 1        | For programming and power supply                             | [Micro USB Cable](https://amzn.in/d/1Sg2bNx)        |
 ## Table for Pin Connections
-| Component            | Aries v1.0 Pin | Description                                             |
+| Component            | Pin Name on Component | Connected to (Aries v1.0)                                      |
 |----------------------|-----------------------|---------------------------------------------------------|
-| Servo Signal         | PC6                   | Servo motor's control signal pin                        |
-| Servo VCC            | 5V                    | Servo motor's power supply                              |
-| Servo GND            | GND                   | Servo motor's ground                                    |
-| Bluetooth RXD        | PD6                   | Bluetooth module's RXD pin (connect directly to 3.3V logic) |
-| Bluetooth TXD        | PD7                   | Bluetooth module's TXD pin (connect directly to 5V logic) |
-| Bluetooth GND        | GND                   | Bluetooth module's ground pin                           |
-| Bluetooth VCC        | 3.3V                  | Bluetooth module's 3.3V pin (connect to microcontroller's 3.3V output pin) |
-| Bluetooth State      | PC7                   | Bluetooth module's State pin (indicates connection status) |
-| Onboard LED          | LED_BUILTIN           | Onboard LED for status indication                       |
+| I2C LCD        |           VCC         |           3.3V / 5V      |
+|                |           GND         |              GND         |
+|                |            SDA        |             SDA1 (I2C)       |
+|                |            SCL        |         SCL1 (I2C)              |
+|ACS712 Current Sensor|      VCC             |          3.3V / 5V    |
+|                |              GND      |         GND              |
+|                |             OUT       |     A0 (Analog Input)                  |
+|    DHT11 Sensor|            VCC        |         3.3V / 5V              |
+|                |           GND         |              GND         |
+|                |           Data         |            D7 (Digital Pin 7)           |
+|         DS1307 RTC Module	       |           VCC         |         3.3V / 5V              |
+|                |         GND           |           GND            |
+|                |         SDL           |             SDA0 (I2C)          |
+|                |           SCL         |       SCL0 (I2C)                |
+|         Relays	       |         Relay (AC Line)	           |       D2                |
+|                |                Relay (Solar Line)	    |              D4         |
+|                |             Relay (Switching Line)	       |          D5             |
+|                |               Relay (Neutral)	     |           D6            |
+|         Voltage Measurement	       |            Analog Voltage Sensor	        |      A7                 |
+
 
 ## Pinout Diagram
 ![image]()
+
 ## Working Code
 ```
 /*
