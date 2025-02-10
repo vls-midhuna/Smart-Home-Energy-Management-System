@@ -55,7 +55,7 @@ Users can monitor and manage their home’s energy consumption remotely through 
 
 
 ## Pinout Diagram
-![image]()
+![image](https://github.com/vls-midhuna/Smart-Home-Energy-Management-System/commit/87bc3f32092ac5b353d463afb93c81fc666be144)
 
 ## Working Code
 ```
