@@ -177,7 +177,12 @@ void loop()
 ```
 
 ## Demo Video
-https://github.com/vls-midhuna/Smart-Home-Energy-Management-System/blob/ad1ae798d612c901983d64db59f6cbde75cf5e42/Demonstration.mp4
+![Watch Video](https://drive.google.com/file/d/1DZKWxJaV9uT9lNJgN7TYlKBFm8v8cqvh/view?usp=drivesdk)
+<video width="640" height="360" controls>
+  <source src="https://github.com/yourusername/repo/blob/main/video.mp4?raw=true" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+
 
 ## Acknowledgements
 I’m grateful for the opportunity to participate in the DIRV Hackathon 2025, organized by IIT Madras in collaboration with VSD, as part of the 2nd Digital India RISC-V (DIR-V) Symposium. It’s exciting to be part of this 4th Product-based Hackathon PAN India and the 3rd RISC-V-focused event, especially with such a reputed institute. This experience has been a great learning opportunity, allowing me to apply my skills, work with like-minded individuals, and contribute to real-world innovation. A big thanks to the organizers for making this possible!
