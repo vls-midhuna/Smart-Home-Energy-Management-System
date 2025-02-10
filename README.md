@@ -47,6 +47,8 @@ Users can monitor and manage their home’s energy consumption remotely through 
 ![image]()
 ## Working Code
 ## Demo Video
+https://github.com/vls-midhuna/Smart-Home-Energy-Management-System/blob/ad1ae798d612c901983d64db59f6cbde75cf5e42/Demonstration.mp4
+
 ## Acknowledgements
 I’m grateful for the opportunity to participate in the DIRV Hackathon 2025, organized by IIT Madras in collaboration with VSD, as part of the 2nd Digital India RISC-V (DIR-V) Symposium. It’s exciting to be part of this 4th Product-based Hackathon PAN India and the 3rd RISC-V-focused event, especially with such a reputed institute. This experience has been a great learning opportunity, allowing me to apply my skills, work with like-minded individuals, and contribute to real-world innovation. A big thanks to the organizers for making this possible!
 
