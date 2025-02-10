@@ -27,7 +27,7 @@ Users can monitor and manage their home’s energy consumption remotely through 
 | Voltage Sensor           | 1|    Sensor for measuring voltage levels in circuits   | [Voltage Sensor](https://robu.in/product/ac-voltage-sensor-module-zmpt101b-single-phase/)       |
 | Current Sensor         | 1|  Sensor for measuring electric current in a circuit| [Current Sensor](https://robu.in/product/5a-range-current-sensor-module-acs712/)        |
 | 4-channel Relay module           | 1        | Electrically operated switch for controlling high-power devices    | [ 4-channel Relay module ](https://robu.in/product/4-channel-relay-module-5v-high-and-low-level-trigger-relay-module/)        |
-| DTH AC 21.V       | 1        | A power supply for DTH (Direct-to-Home)   | [DTH AC 21.V]( https://amzn.in/d/dBb4ZcJ )           |
+| DTH AC 21.V       | 1        | To convert AC to DC for Power supply to th circuit  | [DTH AC 21.V]( https://amzn.in/d/dBb4ZcJ )           |
 | PCB          | 1        | For connecting the components  | [PCB](https://robu.in/product/12-x-18-cm-universal-pcb-prototype-board-single-sided-2-54mm-hole-pitch/)         |
 | USB Cable  | 1        | For programming and power supply                             | [Micro USB Cable](https://amzn.in/d/1Sg2bNx)        |
 ## Table for Pin Connections
