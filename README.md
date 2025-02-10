@@ -177,11 +177,7 @@ void loop()
 ```
 
 ## Demo Video
-![Watch Video](https://drive.google.com/file/d/1DZKWxJaV9uT9lNJgN7TYlKBFm8v8cqvh/view?usp=drivesdk)
-<video width="640" height="360" controls>
-  <source src="https://github.com/yourusername/repo/blob/main/video.mp4?raw=true" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+https://github.com/vls-midhuna/Smart-Home-Energy-Management-System/blob/main/Demonstration.mp4
 
 
 ## Acknowledgements
