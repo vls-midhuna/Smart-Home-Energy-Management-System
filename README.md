@@ -44,7 +44,7 @@ Users can monitor and manage their home’s energy consumption remotely through 
 | Onboard LED          | LED_BUILTIN           | Onboard LED for status indication                       |
 
 ## Pinout Diagram
-![image](https://github.com/vls-midhuna/Smart-Home-Energy-Management-System/blob/84fc8145ec4254cac4d6af616fad86aebcbe9dd6/Pinout.png)
+![image]()
 ## Working Code
 ## Demo Video
 ## Acknowledgements
